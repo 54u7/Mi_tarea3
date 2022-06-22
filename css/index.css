@@ -1,9 +1,44 @@
-.contenedor{
-    color: blue;
-    margin-bottom: 18px;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 16px;
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
 }
+
+/*BODY*/
+body {
+    background: rgba(247, 250, 196, 0.696);
+    /*rgb(224, 213, 212)*/
+}
+
+h2{
+    padding: 40px;
+    margin: auto;
+}
+
+table{
+    table-layout: fixed;
+    margin: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color:rgba(193, 241, 242, 0.833);
+}
+
+tr, th{
+    text-align: left;
+    vertical-align: bottom;
+}
+
+/**/
+.form{
+    padding:40px;
+    text-align: center;
+}
+
+
+
+
+
+
+
